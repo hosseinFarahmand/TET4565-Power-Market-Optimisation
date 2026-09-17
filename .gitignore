@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Solver / temporary output
+*.log
+*.lp
+*.mps
+*.sol
+*.ilp
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Large/generated data and results
+results/*
+!results/.gitkeep

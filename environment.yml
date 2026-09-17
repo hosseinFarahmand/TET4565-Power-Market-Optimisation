@@ -1,0 +1,13 @@
+name: tet4565
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - openpyxl
+  - pip
+  - pip:
+      - pyomo
